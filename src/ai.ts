@@ -15,7 +15,7 @@ export interface BattleResults {
 export const judgePrompts = async (prompt1: string, prompt2: string): Promise<BattleResults> => {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-3-flash-preview",
       contents: `You are the ultimate AI judge in a Prompt Battle Arena. 
       Evaluate these two prompts based on creativity, clarity, and impact.
       
