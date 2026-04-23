@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ⚡ PromptRaid ⚡
 
-# Run and deploy your AI Studio app
+> "Two AI prompts enter. One emerges victorious. Watch them battle visually in real-time."
 
-This contains everything you need to run your app locally.
+**PromptRaid** is a high-energy, Neo-Brutalist AI prompt battle arena. Pitting two creative prompts against each other in a head-to-head clash, a real-time Gemini AI judge evaluates the contenders based on creativity, clarity, and impact—delivering aggressive wrestling-style commentary, retro 8-bit sound effects, and dramatic scoring animations to crown the ultimate winner.
 
-View your app in AI Studio: https://ai.studio/apps/1a34d74c-1e43-4c8f-9635-2fb723c7c6fb
+Built for hackathons and endless fun.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Features
 
+- **⚔️ 1v1 Prompt Battles:** Dual input panels side-by-side for head-to-head prompt warfare.
+- **🤖 Real-time AI Judge:** Powered by Google's Gemini Flash model, it scores prompts out of 100 on Creativity, Clarity, and Impact, and delivers savage commentary.
+- **🎨 Neo-Brutalist Design:** Bold colors (Hot Red, Vivid Yellow, Soft Violet), thick black borders, hard offset shadows, and aggressive typography (Space Grotesk).
+- **🎬 Cinematic Animations:** A 3D rolling text intro, mechanical push-down button physics, and animated score bars using Framer Motion.
+- **🎵 Retro 8-bit Audio:** Custom Web Audio API implementation featuring chiptune battle idle music, countdown beeps, clash crashes, and victory fanfares.
+- **📱 Fully Responsive:** The arena scales perfectly from desktop to mobile screens.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React 19 + TypeScript + Vite
+- **Styling:** Tailwind CSS (v4)
+- **Animations:** Motion (`motion/react`)
+- **Icons:** Lucide React
+- **AI Integration:** `@google/genai` (using `gemini-3-flash-preview`)
+- **Audio:** Native HTML5 Web Audio API
+
+---
+
+## 💻 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/PromptRaid.git
+   cd PromptRaid
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables**
+   Create a `.env` file in the root directory and add your Gemini API Key:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+   *(Note: You can get a free API key from [Google AI Studio](https://aistudio.google.com/))*
+
+4. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Play!**
+   Open your browser and navigate to `http://localhost:3000` (or the port provided by Vite).
+
+---
+
+## 👨‍💻 Built By
+
+**Aditya**
+- GitHub: [@adimestry](https://github.com/adimestry)
+- Instagram: [@aditya_mestry_x007](https://www.instagram.com/aditya_mestry_x007/)
+
+**Dhruv**
+- GitHub: [@dhruvkasar](https://github.com/dhruvkasar)
+- Instagram: [@dhruvvkasar](https://www.instagram.com/dhruvvkasar/)
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
